@@ -16,6 +16,7 @@ footer { padding-bottom: 30px; }
 .navbar-default .navbar-nav li a:hover { text-decoration: underline; }
 .navbar-nav li.highlight { border-radius: 5px; border: 2px solid rgb(255, 255, 255); }
 .navbar-nav li.highlight a:link, .navbar-nav li.highlight a:visited { color: rgb(255, 255, 255); }
+.navbar-nav li.highlight a:hover { text-decoration: none; background-color: #fff; color: #342161}
 .navbar-nav { margin: 20px 0px 0px; }
 .navbar-nav > li { margin: 10px; }
 .navbar-nav > li > a { padding: 5px; text-transform: lowercase; font-weight: 300; font-size: 18px; }
@@ -69,4 +70,8 @@ a#brand-name :hover {
     position: fixed;
     bottom: 18px;
     left: 10px;
+}
+
+a.username {
+	text-decoration: none;
 }
