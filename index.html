@@ -12,7 +12,7 @@
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@abakhi_io">
-    <meta name="twitter:title" content="We make software.">
+    <meta name="twitter:title" content="Abakhi - We make software.">
     <meta name="twitter:description" content="We're currently available for new projects.">
     <meta name="twitter:url" content="http://abakhi.com/">
 
@@ -34,10 +34,10 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" type="text/css" href="css/site.css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/site.css" media="all">
 </head>
 <body class="index">
 
@@ -46,7 +46,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
-        <a class="brand pull-left" id="brand-name">Abakhi</a>
+        <a class="brand pull-left" id="brand-name" href="/">Abakhi</a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -228,7 +228,7 @@ Mawuli started his first company at 16 back in high school designing websites fo
 <footer>
   <div class="container">
     <div class="text-center">
-      &copy; 2014-2015, Proudly based in Accra | <address>Abakhi
+      &copy; 2013-2015, Proudly based in Accra | <address>Abakhi
       -  Forest Avenue, Dzorwulu </address>
     </div>
     <div class="text-center">
@@ -241,5 +241,28 @@ Mawuli started his first company at 16 back in high school designing websites fo
      </div>
   </div>
 </footer>
+
+<span id="top-link-block" class="hidden">
+    <a href="#brand-name" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    </a>
+</span><!-- /top-link-block -->
+
+<!-- jQuery. Moved here to make site load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript">
+$(function() {
+if ( ($(window).height() + 100) < $(document).height() ) {
+    $('#top-link-block').removeClass('hidden').affix({
+        // how far to scroll down before link "slides" into view
+        offset: {top:100}
+    });
+}});
+</script>
+
+</script>
 </body>
 </html>
