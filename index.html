@@ -84,6 +84,8 @@
 
     </div>
   </div>
+  <div id="nav-waypoint"></div>
+
 </div>
 
 <div class="container marketing">
@@ -189,7 +191,7 @@ Mawuli started his first company at 16 back in high school designing websites fo
         <img class="photo" src="img/mawuli.png" alt="Mawuli Adzaku" height="140" width="140">
       </div>
       <h3><a href="http://mawuli.me">Mawuli Adzaku</a></h3>
-      <p>Lover of books. In a long-distance, abusive relationship with compilers and distributed systems. Known to worship at the Church of Emacs. Amateur Photographer ;)</p>
+      <p>Lover of books. In a long-distance, abusive relationship with compilers and distributed systems. Known to worship at the <a href="http://www.emacswiki.org/emacs/ChurchOfEmacs">Church of Emacs</a>. Amateur Photographer ;)</p>
     </div>
 
     <div class="bio col-md-6 text-center">
@@ -264,7 +266,7 @@ if ( ($(window).height() + 100) < $(document).height() ) {
 
 // change colour of navbar fixed color
 var scroll_start = 0;
-   var startchange = $('#what-we-do');
+   var startchange = $('#nav-waypoint');
    var offset = startchange.offset();
     if (startchange.length){
    $(document).scroll(function() {
