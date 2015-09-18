@@ -42,7 +42,7 @@
 <body class="index">
 
     <div class="intro">
-  <div class="navbar navbar-default" role="navigation">
+  <div class="navbar navbar-default navbar-fixed-top navbar-shrink" role="navigation">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
@@ -71,10 +71,10 @@
 </div>
 
 
-  <div id="about" class="header">
+  <div id="about" class="hello">
     <div class="container">
       <div class="row">
-  <div class="col-md-12 col-xs-12 text-center">
+  <div class="col-md-12 col-xs-12 text-center" id="hello-greetings">
     <h1>Hello, we're Abakhi.</h1>
     <h2>We make software on time and on budget</h2>
     <!--span class="message-available">we're currently available for new projects</span-->
@@ -243,8 +243,8 @@ Mawuli started his first company at 16 back in high school designing websites fo
 </footer>
 
 <span id="top-link-block" class="hidden">
-    <a href="#brand-name" class="well well-sm"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
-        <i class="glyphicon glyphicon-chevron-up"></i> Back to Top
+    <a href="#brand-name" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+      <i class="fa fa-2x fa-arrow-circle-up"></i>
     </a>
 </span><!-- /top-link-block -->
 
@@ -260,7 +260,24 @@ if ( ($(window).height() + 100) < $(document).height() ) {
         // how far to scroll down before link "slides" into view
         offset: {top:100}
     });
-}});
+}
+
+// change colour of navbar fixed color
+var scroll_start = 0;
+   var startchange = $('#what-we-do');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() {
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar").css('background-color', '#342161');
+       } else {
+          $('.navbar').css('background-color', 'transparent');
+       }
+   });
+    }
+
+});
 </script>
 
 </script>
