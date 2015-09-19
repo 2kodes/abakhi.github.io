@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abkahi Knowledge Pool</title>
+    <description>Abakhi makes software. Looking to buildin something great? Let&#39;s talk!
+</description>
+    <link>blog.abakhi.com/blog//</link>
+    <atom:link href="blog.abakhi.com/blog//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Sep 2015 18:01:02 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2015 18:01:02 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Obligatory first post.&lt;/p&gt;
+
+&lt;p&gt;Hello World! :D&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Sep 2015 17:15:11 +0000</pubDate>
+        <link>blog.abakhi.com/blog//hello/</link>
+        <guid isPermaLink="true">blog.abakhi.com/blog//hello/</guid>
+        
+        
+        <category>hello</category>
+        
+        <category>startup</category>
+        
+      </item>
+    
+  </channel>
+</rss>
