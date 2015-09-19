@@ -4,10 +4,10 @@
     <title>Abkahi Knowledge Pool</title>
     <description>Abakhi makes software. Looking to building something great? Let&#39;s talk!
 </description>
-    <link>blog.abakhi.com/blog//</link>
-    <atom:link href="blog.abakhi.com/blog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2015 19:45:12 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2015 19:45:12 +0000</lastBuildDate>
+    <link>http://abakhi.com/blog//</link>
+    <atom:link href="http://abakhi.com/blog//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Sep 2015 20:00:59 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2015 20:00:59 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;Hello World! :D&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Sep 2015 17:15:11 +0000</pubDate>
-        <link>blog.abakhi.com/blog//hello/</link>
-        <guid isPermaLink="true">blog.abakhi.com/blog//hello/</guid>
+        <link>http://abakhi.com/blog//hello/</link>
+        <guid isPermaLink="true">http://abakhi.com/blog//hello/</guid>
         
         
         <category>hello</category>
