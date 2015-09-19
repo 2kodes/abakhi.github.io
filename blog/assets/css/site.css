@@ -74,3 +74,17 @@ a#brand-name :hover {
 a.username {
 	text-decoration: none;
 }
+
+li.current { background-color: #fff;}
+li.current a:link  {color: #342161 !important; }
+
+div.content-comments {
+	margin-top: 30px;
+}
+
+.post-title, .page-heading { color: #342161 }
+.post-meta {	color: #337ab7}
+
+.post-list h2, .post-list h1 { text-align: left !important; }
+
+#rss-subscribe { margin-top: 50px }
